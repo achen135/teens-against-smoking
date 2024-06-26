@@ -4,6 +4,7 @@
 }
 
 .story {
+    position: relative;
     display: flex;
     margin-top: 12px;
 }
@@ -11,7 +12,7 @@
 .story img {
     flex: 1;
     width: 40vw;
-    height: 50vw;
+    max-height: 220px;
     border-radius: 20px;
     object-fit: cover;
 }
@@ -28,13 +29,37 @@
 }
 
 .btns {
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    padding: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .btns button {
-    margin-top: 25px;
     margin-left: 12px;
+}
+
+@media (min-width: 600px) {
+    .story {
+        margin-top: 16px;
+    }
+
+    .story-text p{
+        max-height: 300px;
+    }
+
+    .story-text {
+        margin-left: 68px;
+    }
+
+    .story img {
+        max-width: 445px;
+        max-height: 35vh;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .story {
+        margin-top: 24px;
+    }
 }

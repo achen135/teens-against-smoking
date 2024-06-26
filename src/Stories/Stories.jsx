@@ -19,6 +19,34 @@ const Stories = () => {
                     I DID IT I BEAT SMOKING YIPPEE
                     I DID IT I BEAT SMOKING YIPPEE
                     I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
+                    I DID IT I BEAT SMOKING YIPPEE
                 </p>
                 <div className='btns'>
                     <button>

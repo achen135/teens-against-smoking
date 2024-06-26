@@ -21,14 +21,12 @@
     .mission-title {
         flex: 1;
         text-align: left;
-        font-size: 36px;
         max-width: 510px
     }
 
     .mission-desc {
         flex: 1;
         text-align: left;
-        font-size: 16px;
         margin-top: 0;
         max-width: 580px;
     }
