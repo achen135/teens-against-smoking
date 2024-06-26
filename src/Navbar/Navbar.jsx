@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 
 const Navbar = () => {
 
-  const toggleMenuOn = () => {
-      document.querySelector('.sidebar').style.display = 'flex'
-  }
+    const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  const toggleMenuOff = () => {
-    document.querySelector('.sidebar').style.display = 'none'
-}
+    const toggleMenu = () => {
+      setSidebarOpen(!sidebarOpen);
+    }
+
+//   const toggleMenuOn = () => {
+//       document.querySelector('.sidebar').style.display = 'flex'
+//   }
+
+//   const toggleMenuOff = () => {
+//     document.querySelector('.sidebar').style.display = 'none'
+//  }
 
   return (
     <div className='navbar-container'>
@@ -24,16 +30,16 @@ const Navbar = () => {
             <a href="">Resources/Contact</a>
         </div>
 
-        <button className='navbar-menu' onClick={toggleMenuOn}>
+        <button className='navbar-menu' onClick={toggleMenu}>
             <img src="./icons/hamburger menu.png" alt="menu"/>
         </button>
 
-        <div className='sidebar'>
+        <div className={`sidebar ${sidebarOpen ? 'Open' : ''}`}>
             <a href="">MISSION</a>
             <a href="">STORY</a>
             <a href="">STATS</a>
             <a href="">RESOURCES/CONTACT</a>
-            <button onClick={toggleMenuOff}>
+            <button onClick={toggleMenu}>
               <img src="./icons/close.png" alt="close" />
             </button>
         </div>
