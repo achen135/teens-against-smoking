@@ -1,10 +1,14 @@
+.mission-container {
+    padding: 0 10%;
+}
+
 .mission-title {
     text-align: center;
 }
 
 .mission-desc {
     text-align: center;
-    margin-top: 18px;
+    margin-top: 12px;
 }
 
 @media (min-width: 1200px) {
@@ -18,7 +22,7 @@
         flex: 1;
         text-align: left;
         font-size: 36px;
-        max-width: 580px
+        max-width: 510px
     }
 
     .mission-desc {
