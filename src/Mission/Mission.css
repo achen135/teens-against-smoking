@@ -1,0 +1,31 @@
+.mission-title {
+    text-align: center;
+}
+
+.mission-desc {
+    text-align: center;
+    margin-top: 18px;
+}
+
+@media (min-width: 1200px) {
+    .mission-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; 
+    }
+
+    .mission-title {
+        flex: 1;
+        text-align: left;
+        font-size: 36px;
+        max-width: 580px
+    }
+
+    .mission-desc {
+        flex: 1;
+        text-align: left;
+        font-size: 16px;
+        margin-top: 0;
+        max-width: 580px;
+    }
+}

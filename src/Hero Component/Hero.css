@@ -44,7 +44,7 @@
 }
 
 
-@media (min-width:783px) {
+@media (min-width:600px) {
     .hero-bg{
         height: 546px;
     }
