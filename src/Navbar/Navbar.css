@@ -3,10 +3,28 @@
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    padding: 0px 20px;
+    margin: 0 auto;
 }
 
-.navbar-sitemap {
+.navbar-logo {
+    width: 50px
+}
+
+.navbar-container li {
+    list-style: none;
+}
+
+
+.navbar-sitemap{
     display: none;
+    align-items: center;
+    gap: 64px;
+}
+
+.navbar-menu {
+    background-color: transparent;
+    border: none;
 }
 
 .navbar-menu img {
@@ -63,13 +81,5 @@
 
     .navbar-sitemap {
         display: flex;
-    }
-
-    .navbar-logo {
-        margin-right: 45px;
-    }
-
-    .navbar-sitemap a{
-        margin-left: 30px;
     }
 }

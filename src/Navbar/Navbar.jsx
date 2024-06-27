@@ -9,17 +9,9 @@ const Navbar = () => {
       setSidebarOpen(!sidebarOpen);
     }
 
-//   const toggleMenuOn = () => {
-//       document.querySelector('.sidebar').style.display = 'flex'
-//   }
-
-//   const toggleMenuOff = () => {
-//     document.querySelector('.sidebar').style.display = 'none'
-//  }
-
   return (
     <section className='navbar-container'>
-       <a href="../"><img src="" alt="" className='mavbar-logo'/></a>
+       <a href="../"><img src="" alt="logo" className='mavbar-logo'/></a>
 
         <ul className='navbar-sitemap'>
           <li><a href="#">Mission</a></li>

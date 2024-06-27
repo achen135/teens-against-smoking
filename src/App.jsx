@@ -11,11 +11,9 @@ function App() {
     <>
       <Navbar/>
       <Hero/> 
-      <main>
          <Mission/>   
          <Stories/>
          <Stats/>
-      </main>
     </>
   )
 }
