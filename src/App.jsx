@@ -3,6 +3,8 @@ import Navbar from './Navbar/Navbar'
 import Hero from './Hero Component/Hero'
 import Mission from './Mission/Mission'
 import Stories from './Stories/Stories'
+import Stats from './Stats/Stats'
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <main>
          <Mission/>   
          <Stories/>
+         <Stats/>
       </main>
     </>
   )
