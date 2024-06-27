@@ -15,9 +15,10 @@
     padding: 20px;
 }
 
-.hero-title .hero-slogan .hero-desc {
+.title, .hero-slogan, .hero-desc {
     font-family: "Inter";
     color: black;
+    text-align: center;
 }
 
 .hero-title{
@@ -31,7 +32,7 @@
     max-width: 509px;
     font-weight: bold;
     font-size: 28px;
-    text-align: center;
+    
 }
 
 .hero-desc {
@@ -39,7 +40,6 @@
     max-width: 783px;
     font-weight: 500;
     font-size: 12px;
-    text-align: center;
 }
 
 

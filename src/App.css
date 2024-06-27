@@ -1,0 +1,6 @@
+.footer {
+    margin-top: 144px;
+    height: 10vh;
+    width: 100%;
+    background-color: var(--coloraccent);
+}

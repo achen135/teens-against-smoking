@@ -4,6 +4,7 @@ import Hero from './Hero Component/Hero'
 import Mission from './Mission/Mission'
 import Stories from './Stories/Stories'
 import Stats from './Stats/Stats'
+import Cta from './CTA/Cta'
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
          <Mission/>   
          <Stories/>
          <Stats/>
+         <Cta/>
+      <div className='footer'></div>
     </>
   )
 }
