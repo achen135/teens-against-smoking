@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 9px;
+    height: 80px;
 }
 
 .navbar-sitemap {
@@ -59,10 +59,6 @@
 @media (min-width: 1200px) {
     .navbar-menu {
         display: none
-    }
-
-    .navbar-container {
-        justify-content: center;
     }
 
     .navbar-sitemap {

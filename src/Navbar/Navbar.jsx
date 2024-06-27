@@ -18,17 +18,15 @@ const Navbar = () => {
 //  }
 
   return (
-    <div className='navbar-container'>
-        <div className='navbar-logo'>
-            Logo
-        </div>
+    <section className='navbar-container'>
+       <a href="../"><img src="" alt="" className='mavbar-logo'/></a>
 
-        <div className='navbar-sitemap'>
-            <a href="">Mission</a>
-            <a href="">Story</a>
-            <a href="">Stats</a>
-            <a href="">Resources/Contact</a>
-        </div>
+        <ul className='navbar-sitemap'>
+          <li><a href="#">Mission</a></li>
+            <li><a href="#">Story</a></li>
+            <li><a href="#">Stats</a></li>
+            <li><a href="#">Resources/Contact</a></li>
+        </ul>
 
         <button className='navbar-menu' onClick={toggleMenu}>
             <img src="./icons/hamburger menu.png" alt="menu"/>
@@ -43,7 +41,7 @@ const Navbar = () => {
               <img src="./icons/close.png" alt="close" />
             </button>
         </div>
-    </div>
+    </section>
   )
 }
 
