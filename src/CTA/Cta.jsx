@@ -10,7 +10,7 @@ const Cta = () => {
 
         <section className='cta-container'>
             <div className='resources-container'>
-                 <h1>Find Resources and Support:</h1>
+                 <h2>Find Resources and Support:</h2>
 
                  <ul className='resources-content'>
                     <li>
@@ -30,7 +30,7 @@ const Cta = () => {
 
             </div>
             <div className='contact-container'>
-                <h1>Contact us. Share your story: </h1>
+                <h2>Contact us. Share your story: </h2>
                 <ul className='contact-content'>
                     <li>
                         <img src="./icons/email.png" alt="" />
