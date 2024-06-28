@@ -36,24 +36,20 @@ const Cta = () => {
                         <img src="./icons/email.png" alt="" />
                         teensagainstsmoke@gmail.com
                         <br />
-                        <br />
                     </li>
                     <li>
                         <img src="./icons/instagram.png" alt="" />
                         @teensagainstsmoking
-                        <br />
                         <br />
                     </li>
                     <li>
                         <img src="./icons/discordimg.webp" alt="" />
                         <a href="https://discord.gg/yWm849e7" target='_blank'>Teens Against Smoking</a>
                         <br />
-                        <br />
                     </li>
                     <li>
                         <img src="./icons/phone.png" alt="" />
                         609 674-4725
-                        <br />
                         <br />
                     </li>
                 </ul>
