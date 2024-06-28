@@ -30,12 +30,13 @@
     border-radius: 5px;
     background-color: white;
     border: 1px solid black;
+    transition: opacity 1s;
   }
   
   .stats-container:hover .textbox {
-    opacity: 100%;
-    transition: opacity 1s; 
+    opacity: 100%; 
   }
+
 
   b {
     color: darkorange;
