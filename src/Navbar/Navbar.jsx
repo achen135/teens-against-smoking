@@ -14,21 +14,21 @@ const Navbar = () => {
        <a href="../"><img src="" alt="logo" className='mavbar-logo'/></a>
 
         <ul className='navbar-sitemap'>
-          <li><a href="#">Mission</a></li>
-            <li><a href="#">Story</a></li>
-            <li><a href="#">Stats</a></li>
-            <li><a href="#">Resources/Contact</a></li>
+          <li><a href="#mission">Mission</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#stats">Stats</a></li>
+            <li><a href="#cta">Resources/Contact</a></li>
         </ul>
-
         <button className='navbar-menu' onClick={toggleMenu}>
             <img src="./icons/hamburger menu.png" alt="menu"/>
         </button>
 
+
         <div className={`sidebar ${sidebarOpen ? 'Open' : ''}`}>
-            <a href="">MISSION</a>
-            <a href="">STORY</a>
-            <a href="">STATS</a>
-            <a href="">RESOURCES/CONTACT</a>
+            <a href="#mission" onClick={toggleMenu}>MISSION</a>
+            <a href="#story" onClick={toggleMenu}>STORY</a>
+            <a href="#stats" onClick={toggleMenu}>STATS</a>
+            <a href="#cta" onClick={toggleMenu}>RESOURCES/CONTACT</a>
             <button onClick={toggleMenu}>
               <img src="./icons/close.png" alt="close" />
             </button>

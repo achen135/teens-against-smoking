@@ -4,7 +4,7 @@ import './Mission.css'
 const Mission = () => {
   return (
   <div className='curve-splitter'>
-   <section className='mission-container'>
+   <section className='mission-container' id='mission'>
         <h1 className='mission-title'>
             Empowering teens to quit smoking through peer support and education
         </h1>

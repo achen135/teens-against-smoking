@@ -3,7 +3,7 @@ import './Stats.css';
 
 const Stats = () => {
   return (
-    <section className='stats-container'>
+    <section className='stats-container' id='stats'>
       <h1 className='stats-title'>
         Tobacco's Life Toll
       </h1>

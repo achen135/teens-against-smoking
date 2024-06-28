@@ -13,9 +13,10 @@
     min-height: 240px;
     max-height: 440px;
     background-color: var(--colorprimary);
-    background-image: url('/images/heroimgsm.webp');
+    background-image: url('/images/heroimg.webp');
     background-size: cover;
-    padding: 200px 20px;
+    background-position: center;
+    padding: 72px 20px 200px 0;
 }
 
 .title, .hero-slogan, .hero-desc {
@@ -71,7 +72,6 @@
     .hero-bg{
         height: 50vh;
         max-height: none;
-        background-image: url('/images/heroimg.webp');
     }
 
     .hero-title {

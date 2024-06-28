@@ -83,7 +83,7 @@ useEffect(() => {
 
 const Stories = () => {
   return (
-    <section className='stories-background'>
+    <section className='stories-background' id='story'>
       <h2>Stories</h2>
       <Slideshow/>
     </section>

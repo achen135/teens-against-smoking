@@ -8,7 +8,7 @@ const Cta = () => {
             What can I do?
         </div>
 
-        <section className='cta-container'>
+        <section className='cta-container' id='cta'>
             <div className='resources-container'>
                  <h2>Find Resources and Support:</h2>
 
