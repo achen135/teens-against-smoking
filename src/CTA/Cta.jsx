@@ -32,25 +32,38 @@ const Cta = () => {
             <div className='contact-container'>
                 <h2>Contact us. Share your story: </h2>
                 <ul className='contact-content'>
-                    <li>
+                <li>
+                        <h2>
                         <img src="./icons/email.png" alt="" />
                         teensagainstsmoke@gmail.com
-                        <br />
+                        </h2>
                     </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                     <li>
+                        <h2>
                         <img src="./icons/instagram.png" alt="" />
                         @teensagainstsmoking
-                        <br />
+                        </h2>
                     </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                     <li>
+                        <h2>
                         <img src="./icons/discordimg.webp" alt="" />
                         <a href="https://discord.gg/yWm849e7" target='_blank'>Teens Against Smoking</a>
-                        <br />
+                        </h2>
                     </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                     <li>
+                        <h2>
                         <img src="./icons/phone.png" alt="" />
-                        609 674-4725
-                        <br />
+                        (609) 674-4725
+                        </h2>
                     </li>
                 </ul>
             </div>
