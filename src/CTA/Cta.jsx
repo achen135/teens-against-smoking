@@ -23,7 +23,7 @@ const Cta = () => {
                     </li>
                     <li>
                         <p>Bringing Awareness/Helping others: Want to help bring awareness to or provide assistance to others affected by underage smoking but don’t know where to start? Don’t worry and check out these articles to help you get started!</p>
-                        <a href="https://wristbandcreation.com/10-things-can-raise-awareness-cause/" target='_blank'>Wrist band creation</a>
+                        <a href="https://wristbandcreation.com/10-things-can-raise-awareness-cause/" target='_blank'>Wrist band creation </a>
                         <a href="https://www.lung.org/quit-smoking/helping-teens-quit" target='_blank'>American Lung Association</a>
                     </li>
                  </ul>
