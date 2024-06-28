@@ -1,4 +1,5 @@
 .hero-container {
+    position: relative;
     display: flex;
     justify-content: center;
 }
@@ -11,8 +12,10 @@
     height: 60vh;
     min-height: 240px;
     max-height: 440px;
-    background-color: aqua;
-    padding: 20px;
+    background-color: var(--colorprimary);
+    background-image: url("./images/heroimgsm.jpg");
+    background-size: cover;
+    padding: 200px 20px;
 }
 
 .title, .hero-slogan, .hero-desc {
@@ -42,12 +45,32 @@
     font-size: 12px;
 }
 
+.custom-shape-divider-bottom-1719549009 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1719549009 svg {
+    position: relative;
+    display: block;
+    width: calc(139% + 1.3px);
+    height: 110px;
+}
+
+.custom-shape-divider-bottom-1719549009 .shape-fill {
+    fill: var(--coloraccent);
+}
 
 @media (min-width:600px) {
 
     .hero-bg{
-        height: 580px;
+        height: 50vh;
         max-height: none;
+        background-image: url("./images/heroimg.jpg");
     }
 
     .hero-title {

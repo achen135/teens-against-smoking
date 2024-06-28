@@ -1,6 +1,6 @@
 .mission-container {
-    position: relative;
-    background-color: var(--coloraccent);
+    margin-top: 0;
+    padding-top: 72px;
 }
 
 .mission-title {
@@ -10,6 +10,40 @@
 .mission-desc {
     text-align: center;
     margin-top: 12px;
+}
+
+.curve-splitter {
+    width: 100%;
+    padding-bottom: 40vw;
+    background-color: var(--coloraccent);
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1719548027 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1719548027 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 110px;
+}
+
+.custom-shape-divider-bottom-1719548027 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media (min-width: 600px) {
+    .curve-splitter {
+        padding-bottom: 150px;
+    }
 }
 
 @media (min-width: 1200px) {
