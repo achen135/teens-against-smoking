@@ -44,8 +44,10 @@
 
 
 @media (min-width:600px) {
+
     .hero-bg{
-        height: 546px;
+        height: 580px;
+        max-height: none;
     }
 
     .hero-title {
