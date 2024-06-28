@@ -16,7 +16,7 @@
     background-image: url('/images/heroimg.webp');
     background-size: cover;
     background-position: center;
-    padding: 72px 20px 200px 0;
+    padding: 72px 20px 200px 20px;
 }
 
 .title, .hero-slogan, .hero-desc {

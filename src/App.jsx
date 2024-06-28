@@ -5,7 +5,7 @@ import Mission from './Mission/Mission'
 import Stories from './Stories/Stories'
 import Stats from './Stats/Stats'
 import Cta from './CTA/Cta'
-
+import Footer from './Footer/Footer'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
          <Stories/>
          <Stats/>
          <Cta/>
-      <div className='footer'></div>
+      <Footer/>
     </>
   )
 }

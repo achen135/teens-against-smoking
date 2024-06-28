@@ -2,11 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-    height: 84px;
+    background-color: var(--coloraccent);
+    background-image: url('/images/ctabanner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 0;
     margin-top: 72px;
     font-family: "Inter";
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .cta-container {
@@ -55,7 +59,7 @@
 @media (min-width: 1200px) {
     .cta-banner {
         height: 120px;
-        font-size: 32px;
+        font-size: 44px;
     }
 
     .cta-container {
