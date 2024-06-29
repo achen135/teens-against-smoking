@@ -57,6 +57,7 @@ useEffect(() => {
       <button className="btn" onClick={() => { index == 0 ?  setIndex(index => storyData.length - 1 ) : setIndex(index => index - 1 ) }}> <img src="./icons/back.webp" alt="<" /> </button>
       <button className="btn" onClick={() => { index == storyData.length-1 ?  setIndex(index => 0) : setIndex(index => index + 1) }}> <img src="./icons/forward.webp" alt=">" /> </button>
     </div>
+    {/* Slideshow */}
     <div className="slideshow">
       <div className="slideshow-slider"
           style={{ transform: `translate3d(${-index * translateAmt}%, 0, 0)`} }
@@ -67,6 +68,7 @@ useEffect(() => {
             key={index}>
             <div className='slide-content'>
                 <p className='story-text'>{story.storyText}</p>
+                {/* Implements the wavy effect beneath the slideshow */}
                 <div className='wave'>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>       
                 <div className='slide-author-info'>  
                 {story.picture !== "" ? (<img src={story.picture}/>) : (<img src="./images/defaultpfp.webp"/>)}                   
