@@ -22,12 +22,16 @@
 
 a {
   font-family: "Roboto";
-  color: #000000;
+  color: #ff9500;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5a5a5a;
+  color: #ff7b00;
+}
+
+b {
+  color: darkorange;
 }
 
 body {

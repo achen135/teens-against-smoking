@@ -19,14 +19,28 @@
 }
 
 .resources-container, .contact-container {
+    position: relative;
     background-color: var(--colorsecondary);
-    padding: 20px;
-    border-radius: 8px;
+    padding: 28px;
+    border: 2px var(--coloraccent) solid;
+    border-radius: 16px;
+    box-shadow: 12px 12px 2px 1px var(--coloraccent);
     flex: 1;
+    transition: scale 0.5s ease;
 }
+
+.resources-container:hover, .contact-container:hover {
+    scale: 1.1;
+}
+
 
 .resources-container li {
     margin-top: 8px;
+}
+
+.resources-container li a {
+    display: block;
+    text-align: center;
 }
 
 .contact-content li {
@@ -44,9 +58,11 @@
     margin-left: -16px;
 }
 
+
 @media (max-width: 600px) {
-    .contact-content li, .resources-content li {
-        font-size: 3.5vw;
+
+    .contact-content li h2, .resources-content li {
+        font-size: 2.8vw;
     }
 
     .contact-content img {

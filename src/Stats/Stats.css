@@ -25,6 +25,10 @@
   width: 48px;
 }
 
+.flag:hover {
+  scale: 1.05;
+}
+
 #head {
   top: 0;
   left: 38%; 
@@ -59,10 +63,6 @@
 
 .textbox.Displayed {
   opacity: 1;
-}
-
-b {
-  color: darkorange;
 }
 
 .custom-shape-divider-top-1719618702 {
