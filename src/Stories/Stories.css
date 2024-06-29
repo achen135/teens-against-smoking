@@ -1,6 +1,7 @@
 .stories-container {
     position: relative;
     padding-bottom: 64px;
+    margin-bottom: 36px;
 }
 
 .stories-container h1 {
@@ -119,6 +120,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    .stories-background {
+        padding: 16px;
+    }
+
     .slide {
     min-width: 100%;
     max-height: 10%;
