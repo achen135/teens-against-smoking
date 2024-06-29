@@ -5,6 +5,8 @@
     height: 80px;
     padding: 0px 20px;
     margin: 0 auto;
+    width: 80vw;
+    max-width: 1080px;
 }
 
 .navbar-logo {
@@ -58,6 +60,7 @@
     padding-bottom: 24px;
     width: 100%;
     font-size: 20px;
+    color: black;
 }
 
 .sidebar button {

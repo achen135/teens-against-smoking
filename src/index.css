@@ -47,6 +47,16 @@ section {
   width: 80vw;
   max-width: 1080px;
   margin: 72px auto 0 auto;
+  opacity: 0;
+  transform: translateX(-100%);
+  filter: blur(2px);
+  transition: all 1s ease; 
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
 }
 
 h1 {

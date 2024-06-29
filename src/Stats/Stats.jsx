@@ -33,9 +33,9 @@ const Stats = () => {
       <div className='stats-content'>
           <div className='person-container'>
               <img src={person}/>
-              <img className='flag' id='head' src={flag} alt="*" onMouseEnter={() => displayText('head')} onMouseLeave={() => setHoveredFlag(hideText)} onTouchStart={() => displayText('head')} onTouchEnd={() => setHoveredFlag(hideText)}/>
-              <img className='flag' id='heart' src={flag} alt="*" onMouseEnter={() => displayText('heart')} onMouseLeave={() => setHoveredFlag(hideText)} onTouchStart={() => displayText('heart')} onTouchEnd={() => setHoveredFlag(hideText)}/>
-              <img className='flag' id='body' src={flag} alt="*" onMouseEnter={() => displayText('body')} onMouseLeave={() => setHoveredFlag(hideText)} onTouchStart={() => displayText('body')} onTouchEnd={() => setHoveredFlag(hideText)}/>
+              <img className='flag' id='head' src={flag} alt="*" onMouseEnter={() => displayText('head')} onMouseLeave={() => setHoveredFlag(hideText)} onTouchStart={(e) => {e.preventDefault; displayText('head')}} onTouchEnd={(e) => setHoveredFlag(hideText)}/>
+              <img className='flag' id='heart' src={flag} alt="*" onMouseEnter={() => displayText('heart')} onMouseLeave={() => setHoveredFlag(hideText)} onTouchStart={(e) => {e.preventDefault; displayText('heart')}} onTouchEnd={(e) => setHoveredFlag(hideText)}/>
+              <img className='flag' id='body' src={flag} alt="*" onMouseEnter={() => displayText('body')} onMouseLeave={() => setHoveredFlag(hideText)} onTouchStart={(e) => {e.preventDefault; displayText('body')}} onTouchEnd={(e) => setHoveredFlag(hideText)}/>
           </div>
           <div className='textboxes'>
           <div className={`textbox ${textDisplayed && hoveredFlag === 'head' ? 'Displayed' : ''}`}>
