@@ -37,11 +37,11 @@ function Slideshow() {
 const [index, setIndex] = useState(0)
 
 // Everything until the first return is the @media thing; https://stackoverflow.com/questions/54491645/media-query-syntax-for-reactjs; Marcos Guerrero is the goat
-const [translateAmt, setTranslateAmt] = useState(51)
+const [translateAmt, setTranslateAmt] = useState( window.innerWidth < 600 ? 102 : 51)
 
 useEffect(() => {
   const handleResize = () => {
-    window.innerWidth < 600 ? setTranslateAmt(100) : setTranslateAmt(51)
+    window.innerWidth < 600 ? setTranslateAmt(102) : setTranslateAmt(51)
   }
 
     window.addEventListener("resize", handleResize)
