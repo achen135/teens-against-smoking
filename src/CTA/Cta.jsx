@@ -23,7 +23,7 @@ const Cta = () => {
                     </li>
                     <li>
                         <p>Bringing Awareness/Helping others: Want to help bring awareness to or provide assistance to others affected by underage smoking but don’t know where to start? Don’t worry and check out these articles to help you get started!</p>
-                        <a href="https://wristbandcreation.com/10-things-can-raise-awareness-cause/" target='_blank'>Wrist band creation</a>
+                        <a href="https://wristbandcreation.com/10-things-can-raise-awareness-cause/" target='_blank'>Wrist band creation </a>
                         <a href="https://www.lung.org/quit-smoking/helping-teens-quit" target='_blank'>American Lung Association</a>
                     </li>
                  </ul>
@@ -32,13 +32,38 @@ const Cta = () => {
             <div className='contact-container'>
                 <h2>Contact us. Share your story: </h2>
                 <ul className='contact-content'>
-                    <li>
+                <li>
+                        <h2>
                         <img src="./icons/email.png" alt="" />
                         teensagainstsmoke@gmail.com
+                        </h2>
                     </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                     <li>
+                        <h2>
                         <img src="./icons/instagram.png" alt="" />
                         @teensagainstsmoking
+                        </h2>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>
+                        <h2>
+                        <img src="./icons/discordimg.webp" alt="" />
+                        <a href="https://discord.gg/yWm849e7" target='_blank'>Teens Against Smoking</a>
+                        </h2>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>
+                        <h2>
+                        <img src="./icons/phone.png" alt="" />
+                        (609) 674-4725
+                        </h2>
                     </li>
                 </ul>
             </div>
