@@ -3,6 +3,7 @@ import './Mission.css'
 
 const Mission = () => {
   return (
+    // Mission
   <div className='curve-splitter'>
    <section className='mission-container' id='mission'>
         <h1 className='mission-title'>

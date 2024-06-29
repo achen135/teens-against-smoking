@@ -4,11 +4,13 @@ import './Cta.css'
 const Cta = () => {
   return (
     <>
+    {/* Contact Us Banner*/}
         <div className='cta-banner'>
             What can I do?
         </div>
 
         <section className='cta-container' id='cta'>
+            {/* Resources */}
             <div className='resources-container'>
                  <h2>Find Resources and Support:</h2>
 
@@ -29,6 +31,7 @@ const Cta = () => {
                  </ul>
 
             </div>
+            {/* Contact Us */}
             <div className='contact-container'>
                 <h2>Contact us. Share your story: </h2>
                 <ul className='contact-content'>

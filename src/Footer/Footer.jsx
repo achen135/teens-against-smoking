@@ -3,6 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
+    // Implements wavy border on footer
     <div className='footer-container'>
         hello
 <div class="custom-shape-divider-top-1719557097">
