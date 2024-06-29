@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <section className='navbar-container'>
-       <a href="../"><img src="" alt="logo" className='mavbar-logo'/></a>
+       <a href="../"><img src="./icons/logo.webp" alt="logo" className='mavbar-logo' width='65' height='65'/></a>
 
         <ul className='navbar-sitemap'>
           <li><a href="#mission">Mission</a></li>
